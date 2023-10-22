@@ -1,3 +1,3 @@
-# website-remake
+# Portfolio-V2
 
-Remaking my portfolio site
+A Remake of my portfolio website
