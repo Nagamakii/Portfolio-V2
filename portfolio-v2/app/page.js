@@ -26,7 +26,7 @@ export default function Home() {
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl'>madebyevan</h1>
             <ul className='flex items-center'>
-              <li><a className='bg-gradiant-to-r from-cyan-500 to teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a></li>
+              <li><a className='bg-gradiant-to-r from-cyan-500 to teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://www.linkedin.com/in/evan-quah/'>Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
@@ -41,8 +41,12 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3'>
+            <a href='https://github.com/Nagamakii'>
             <AiFillGithub />
+            </a>
+            <a href='https://www.linkedin.com/in/evan-quah/'>
             <AiFillLinkedin />
+            </a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from text-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} fill objectFit='cover' />
@@ -51,16 +55,15 @@ export default function Home() {
         
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Things I offer</h3>
+            <h3 className='text-3xl py-1'>Who I am</h3>
             <p className='text-medium py-5 leading-8'>
             
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            <span className="text-teal-500"> agencies </span>
-            consulted for <span className="text-teal-500">startups </span>
-            and collaborated with talanted people to create digital products
-            for both business and consumer use.
-            
+            <span className="text-teal-500"> Comptia, A+, Network+, and Security + certified. </span> As a tech enthusiast with a deep fascination for cybersecurity, I'm on a mission to safeguard the digital world from evolving threats.
+            My journey into the realm of cybersecurity started with a strong foundation in my internship with Cybati, 
+            creating and simulating SCADA and OT devices for use in cybersecurity conferences.
+            I continued this learning and applied it during my work as a systems administrator. I managed and secured the office 365 tenant, SFTP server, and CRM systems. 
+            I'm excited to leverage this knowledge to protect organizations and individuals from cyber risks.
+
             </p>
           </div>
             <div className='lg:flex gap-10'>
