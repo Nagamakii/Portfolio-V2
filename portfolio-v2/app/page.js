@@ -1,16 +1,8 @@
 import Image from 'next/image'
-import {BsAlignCenter, BsFillMoonStarsFill} from 'react-icons/bs'
 import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
-import consulting from "../public/consulting.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 
 export default function Home() {
   return (
@@ -18,19 +10,20 @@ export default function Home() {
       <head>
         <title>Evan Quah Portfolio</title>
         <meta name="description" content='Blank'></meta>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/icon.ico' type='image/x-icon'/>
+
       </head>
 
       <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className='min-h-screen'> 
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl'>madebyevan</h1>
+            <h1 className='text-xl'>madebyevan :)</h1>
             <ul className='flex items-center'>
-              <li><a className='bg-gradiant-to-r from-cyan-500 to teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://www.linkedin.com/in/evan-quah/'>Resume</a></li>
+              <li><a className='text-white px-4 py-2 rounded-md ml-8 border-solid border-2 border-purple-400' href=''>Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>Evan Quah</h2>
+            <h2 className='text-5xl py-2 text-purple-400 font-medium'>Evan Quah</h2>
             <h3 className='text-2xl py-2'>
               
               System Administrator and Security Student
@@ -48,8 +41,8 @@ export default function Home() {
             <AiFillLinkedin />
             </a>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from text-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved} fill objectFit='cover' />
+          <div className='derrelative mx-auto bg-gradient-to-b from text-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+            <Image src={deved} />
           </div>
         </section>
         
@@ -58,7 +51,7 @@ export default function Home() {
             <h3 className='text-3xl py-1'>Who I am</h3>
             <p className='text-medium py-5 leading-8'>
             
-            <span className="text-teal-500"> Comptia, A+, Network+, and Security + certified. </span> As a tech enthusiast with a deep fascination for cybersecurity, I'm on a mission to safeguard the digital world from evolving threats.
+            <span className="text-purple-400"> Comptia, A+, Network+, and Security + certified. </span> As a tech enthusiast with a deep fascination for cybersecurity, I'm on a mission to safeguard the digital world from evolving threats.
             My journey into the realm of cybersecurity started with a strong foundation in my internship with Cybati, 
             creating and simulating SCADA and OT devices for use in cybersecurity conferences.
             I continued this learning and applied it during my work as a systems administrator. I managed and secured the office 365 tenant, SFTP server, and CRM systems. 
@@ -67,7 +60,7 @@ export default function Home() {
             </p>
           </div>
             <div className='lg:flex gap-10'>
-              <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
                 </div>
@@ -81,13 +74,13 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 
                 </p>
-                <h4 className='py-4 text-teal-400'> Tools I use</h4>
+                <h4 className='py-4 text-purple-400'> Tools I use</h4>
                 <p className='text-gray-200 py-1'>Nmap</p>
                 <p className='text-gray-200 py-1'>Wireshark</p>
                 <p className='text-gray-200 py-1'>Azure</p>
             </div>
             <div className='lg:flex gap-10'>
-              <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
                 </div>
@@ -101,14 +94,14 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 
                 </p>
-                <h4 className='py-4 text-teal-400'> Tools I use</h4>
+                <h4 className='py-4 text-purple-400'> Tools I use</h4>
                 <p className='text-gray-200 py-1'>Nmap</p>
                 <p className='text-gray-200 py-1'>Wireshark</p>
                 <p className='text-gray-200 py-1'>Azure</p>
             </div>
           </div>
           <div className='lg:flex gap-10'>
-              <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
                 </div>
@@ -122,7 +115,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 
                 </p>
-                <h4 className='py-4 text-teal-400'> Tools I use</h4>
+                <h4 className='py-4 text-purple-400'> Tools I use</h4>
                 <p className='text-gray-200 py-1'>Nmap</p>
                 <p className='text-gray-200 py-1'>Wireshark</p>
                 <p className='text-gray-200 py-1'>Azure</p>
@@ -137,8 +130,8 @@ export default function Home() {
             
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            <span className="text-teal-500"> agencies </span>
-            consulted for <span className="text-teal-500">startups </span>
+            <span className="text-purple-400"> agencies </span>
+            consulted for <span className="text-purple-400">startups </span>
             and collaborated with talanted people to create digital products
             for both business and consumer use.
             
