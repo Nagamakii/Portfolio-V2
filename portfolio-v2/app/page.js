@@ -3,16 +3,18 @@ import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
+import ParticleBackground from './Components/ParticleBackground';
+import { tsParticles } from "tsparticles-engine";
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
-      <head>
-        <title>Evan Quah Portfolio</title>
-        <meta name="description" content='Blank'></meta>
-        <link rel='icon' href='/icon.ico' type='image/x-icon'/>
-
-      </head>
+      <ParticleBackground>
+        <head>
+          <title>Evan Quah Portfolio</title>
+            <meta name="description" content='Blank'></meta>
+            <link rel='icon' href='/icon.ico' type='image/x-icon'/>
+          </head>
 
       <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
         <section className='min-h-screen'> 
@@ -139,6 +141,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      </ParticleBackground>
     </div>
     )
 }
