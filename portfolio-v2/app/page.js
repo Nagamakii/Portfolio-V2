@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import deved from "../public/dev-ed-wave.png";
@@ -5,22 +6,22 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import ParticleBackground from './Components/ParticleBackground';
 import { tsParticles } from "tsparticles-engine";
+import Particles from 'react-tsparticles';
 
 export default function Page() {
-  return (
+  return (  
     <div>
       <ParticleBackground>
         <head>
           <title>Evan Quah Portfolio</title>
             <meta name="description" content='Blank'></meta>
             <link rel='icon' href='/icon.ico' type='image/x-icon'/>
-          </head>
-
-      <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
-        <section className='min-h-screen'> 
-          <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl'>madebyevan :)</h1>
-            <ul className='flex items-center'>
+        </head>
+        <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
+          <section className='min-h-screen'> 
+            <nav className='py-10 mb-12 flex justify-between'>
+              <h1 className='text-xl'>madebyevan :)</h1>
+              <ul className='flex items-center'>
               <li><a className='text-white px-4 py-2 rounded-md ml-8 border-solid border-2 border-purple-400' href=''>Resume</a></li>
             </ul>
           </nav>
@@ -140,7 +141,7 @@ export default function Page() {
             </p>
           </div>
         </section>
-      </main>
+        </main>
       </ParticleBackground>
     </div>
     )

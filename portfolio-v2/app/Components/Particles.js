@@ -1,4 +1,4 @@
-import Home from "../page";
+import { Particles } from "tsparticles-engine";
 import ParticleBackground from "./ParticleBackground";
 
 const ParticlesConfig = {
