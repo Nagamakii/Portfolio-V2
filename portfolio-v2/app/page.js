@@ -1,17 +1,13 @@
-'use client'
 import Image from 'next/image'
 import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
-import ParticleBackground from './Components/ParticleBackground';
-import { tsParticles } from "tsparticles-engine";
-import Particles from 'react-tsparticles';
+import { loadSlim } from "tsparticles-slim"
 
 export default function Page() {
   return (  
     <div>
-      <ParticleBackground>
         <head>
           <title>Evan Quah Portfolio</title>
             <meta name="description" content='Blank'></meta>
@@ -142,7 +138,6 @@ export default function Page() {
           </div>
         </section>
         </main>
-      </ParticleBackground>
     </div>
     )
 }
