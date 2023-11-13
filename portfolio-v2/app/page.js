@@ -3,7 +3,6 @@ import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
-import { loadSlim } from "tsparticles-slim"
 
 export default function Page() {
   return (  
@@ -13,7 +12,7 @@ export default function Page() {
             <meta name="description" content='Blank'></meta>
             <link rel='icon' href='/icon.ico' type='image/x-icon'/>
         </head>
-        <main className='bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'>
+        <main className='bg-white px-10 dark:bg-black md:px-20 lg:px-40'>
           <section className='min-h-screen'> 
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl'>madebyevan :)</h1>
@@ -58,27 +57,31 @@ export default function Page() {
 
             </p>
           </div>
-            <div className='lg:flex gap-10'>
+            <div className='lg: gap-10'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
                 </div>
                 <h3 className='text-lg font-medium pt-8 pb-2'>
                   
-                  Things I make
+                  Home Lab
                   
                   </h3>
                 <p>
                 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                
+                Using a combination of Raspberry PI's, virutal machines, and other devices, I actively manage a home lab. 
+                <br></br>
+                Here I host some home automation code, docker containers, and expliotable virtual machines to use as sandbox testing enviornments.
+                <br></br>
+                My largest acheivement has been hosting a locally running SIEM, using the ELK stack. 
+
                 </p>
                 <h4 className='py-4 text-purple-400'> Tools I use</h4>
-                <p className='text-gray-200 py-1'>Nmap</p>
-                <p className='text-gray-200 py-1'>Wireshark</p>
+                <p className='text-gray-200 py-1'>Linux</p>
+                <p className='text-gray-200 py-1'>Docker</p>
                 <p className='text-gray-200 py-1'>Azure</p>
             </div>
-            <div className='lg:flex gap-10'>
+            <div className='lg: gap-10'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
@@ -99,7 +102,7 @@ export default function Page() {
                 <p className='text-gray-200 py-1'>Azure</p>
             </div>
           </div>
-          <div className='lg:flex gap-10'>
+          <div className='lg: gap-10'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
