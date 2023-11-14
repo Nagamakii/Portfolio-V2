@@ -3,9 +3,15 @@ import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import deved from "../public/dev-ed-wave.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
+import ParticleBackground from './components/particle';
 
 export default function Page() {
   return (  
+    <>
+
+    <ParticleBackground/>
+
+      
     <div>
         <head>
           <title>Evan Quah Portfolio</title>
@@ -142,5 +148,7 @@ export default function Page() {
         </section>
         </main>
     </div>
+    </>
     )
+    
 }
