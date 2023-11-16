@@ -6,19 +6,16 @@ import design from "../public/design.png";
 import ParticleBackground from './components/particle';
 
 export default function Page() {
-  return (  
-    <>
+  return (
+    <div className="relative">
+      <ParticleBackground />
 
-    <ParticleBackground/>
-
-      
-    <div>
-        <head>
-          <title>Evan Quah Portfolio</title>
-            <meta name="description" content='Blank'></meta>
-            <link rel='icon' href='/icon.ico' type='image/x-icon'/>
-        </head>
-        <main className='bg-white px-10 dark:bg-black md:px-20 lg:px-40'>
+      <head>
+        <title>Evan Quah Portfolio</title>
+        <meta name="description" content="Blank"></meta>
+        <link rel="icon" href="/icon.ico" type="image/x-icon" />
+      </head>
+      <main className="md:px-20 lg:px-40 relative z-10">
           <section className='min-h-screen'> 
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl'>madebyevan :)</h1>
@@ -63,7 +60,7 @@ export default function Page() {
 
             </p>
           </div>
-            <div className='lg: gap-10'>
+            <div className='lg: gap-10 bg-black bg-opacity-75'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
                 <div className='flex justify-center items-center'>
                   <Image src={design} width={100} height={100} />
@@ -148,7 +145,5 @@ export default function Page() {
         </section>
         </main>
     </div>
-    </>
     )
-    
 }

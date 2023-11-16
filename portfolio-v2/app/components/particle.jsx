@@ -28,7 +28,7 @@ const ParticleBackground = () => {
             
             {background: {
                 color: {
-                    value: "#0d47a1",
+                    value: "#FFFFF",
                 },
             },
             fpsLimit: 120,
@@ -40,13 +40,13 @@ const ParticleBackground = () => {
                     },
                     onHover: {
                         enable: true,
-                        mode: "repulse",
+                        mode: "grab",
                     },
                     resize: true,
                 },
                 modes: {
-                    push: {
-                        quantity: 4,
+                    grab: {
+                        distance: 300,
                     },
                     repulse: {
                         distance: 200,
@@ -72,7 +72,7 @@ const ParticleBackground = () => {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 6,
+                    speed: 3,
                     straight: false,
                 },
                 number: {
@@ -97,7 +97,6 @@ const ParticleBackground = () => {
 
         height='100vh'
         width='100vw'
-        position='fixed'
       ></Particles>
     </div>
   );
