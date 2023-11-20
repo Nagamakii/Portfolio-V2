@@ -1,24 +1,23 @@
 import{AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import ParticleBackground from './components/particle';
-import Troubleshoot from "../public/Troubleshoot.png";
-import deved from "../public/dev-ed-wave.png";
-import design from "../public/design.png";
 import memory from "../public/Memory.png";
 import files from "../public/Files.png";
 import code from "../public/code.png";
 import Image from 'next/image'
 
+export const metadata = {
+  title: 'Evan Quah',
+  description: 'Evan Quah Portfolio',
+  image: '/icon.ico',
+}
+
 export default function Page() {
   return (
-    <div className="relative">
-      <ParticleBackground />
+      <div className="relative">
 
-      <head>
-        <title>Evan Quah Portfolio</title>
-        <meta name="description" content="Blank"></meta>
-        <link rel="icon" href="/icon.ico" type="image/x-icon" />
-      </head>
-      <main className="md:px-20 lg:px-40 relative z-10">
+        <ParticleBackground />
+  
+        <main className="md:px-20 lg:px-40 relative z-10">
           <section className='min-h-screen'> 
             <nav className='py-10 mb-12 flex justify-between'>
               <h1 className='text-xl font-mono'>madebyevan :)</h1>
@@ -37,7 +36,7 @@ export default function Page() {
               blah blah blah fix later
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-1'>
+          <div className='text-5xl flex justify-center gap-16 py-1'> 
             <a href='https://github.com/Nagamakii'>
             <AiFillGithub />
             </a>
@@ -49,7 +48,7 @@ export default function Page() {
 
         <section>
           <div>
-            <h3 className='text-center text-3xl pb-10 font-mono'>Who I am</h3>
+            <h3 className='text-center text-3xl pb-1 font-mono'>Personal Projects</h3>
             <p className='text-medium pb-10 leading-8'>
             
 
@@ -67,17 +66,18 @@ export default function Page() {
                   </h3>
                 <p className='font-mono'>
                 
-                Using a combination of Raspberry PI's, virutal machines, and other devices, I actively manage a home lab. 
+                Using a combination of Raspberry PI's, virutal machines, and other devices, I actively manage a <span className="text-purple-400">Linux</span> based home lab. 
                 <br></br>
-                Here I host some home automation code, docker containers, and expliotable virtual machines to use as sandbox testing enviornments.
+                Here I host some home automation code, <span className="text-purple-400">Docker</span> containers, and expliotable virtual machines to use as sandbox testing enviornments.
                 <br></br>
-                My largest acheivement has been hosting a locally running SIEM, using the ELK stack. 
+                I self-host a SIEM and XDR server using <span className="text-purple-400">Wazuh</span> in this enviornment. 
 
                 </p>
-                <h4 className='py-4 text-purple-400 font-mono'> Tools I use</h4>
+                <h4 className='py-4 text-purple-400 font-mono'> Tools I used</h4>
                 <p className='text-gray-200 py-1 font-mono'>Linux</p>
                 <p className='text-gray-200 py-1 font-mono'>Docker</p>
-                <p className='text-gray-200 py-1 font-mono'>Azure</p>
+                <p className='text-gray-200 py-1 font-mono pb-8'>Wazuh</p>
+                <a className='text-white px-10 py-2 py font-mono rounded-md border-solid border-2 border-purple-400 justify-center' href='https://github.com/Nagamakii/Homelab'>Project Page</a>
             </div>
             <div className='lg: gap-10'>
               <div className='text-center shadow-lg p-10 rounded-xl my-10 border-solid border-2 border-purple-400'>
@@ -97,7 +97,8 @@ export default function Page() {
                 <h4 className='py-4 text-purple-400 font-mono'> Tools I use</h4>
                 <p className='text-gray-200 py-1 font-mono'>Nmap</p>
                 <p className='text-gray-200 py-1 font-mono'>Wireshark</p>
-                <p className='text-gray-200 py-1 font-mono'>Azure</p>
+                <p className='text-gray-200 py-1 font-mono pb-8'>Azure</p>
+                <a className='text-white px-10 py-2 py font-mono rounded-md border-solid border-2 border-purple-400 justify-center' href='https://www.linkedin.com/in/evan-quah/'>Project Page</a>
             </div>
           </div>
           <div className='lg: gap-10'>
@@ -118,7 +119,8 @@ export default function Page() {
                 <h4 className='py-4 text-purple-400 font-mono'> Tools I use</h4>
                 <p className='text-gray-200 py-1 font-mono'>Nmap</p>
                 <p className='text-gray-200 py-1 font-mono'>Wireshark</p>
-                <p className='text-gray-200 py-1 font-mono'>Azure</p>
+                <p className='text-gray-200 py-1 font-mono pb-8'>Azure</p>
+                <a className='text-white px-10 py-2 py font-mono rounded-md border-solid border-2 border-purple-400 justify-center' href=''>Project Page</a>
             </div>
           </div>
           </div>
