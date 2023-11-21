@@ -37,8 +37,8 @@ export default function Page() {
           <div className='pt-20'>
             <div className='text-center pt-20'>
               <p className='font font-mono'>Hi! I'm</p>
-              <h2 className='text-5xl py-2 text-purple-400 font-medium max-h-min font-mono'>Evan Quah</h2>
-              <h3 className='text-2xl py-2 font-mono'>System Administrator and Security Student</h3>
+              <h2 className='text-5xl py-2 text-purple-400 font-medium max-h-min font-mono'>Evan</h2>
+              <h3 className='text-2xl py-2 font-mono'>SysAdmin and Cybersecurity Student</h3>
               <p className='text-medium py-5 leading-8 md:text-xl max-w-xl mx-auto font-mono'>I like to build fun things</p>
             </div>
             <div className='text-5xl flex justify-center gap-16 py-1'> 
