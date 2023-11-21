@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white py-5 px-5 flex flex-col items-center justify-center">
       <div>
-        <h1 className="text-sm font-mono text-center">Shoot me a message! evanjquah@gmail.com</h1>
+        <h1 className="text-sm font-mono text-center">Feel free to reach out! hi@evanquah.xyz</h1>
       </div>
       <div className="flex gap-4 mt-4">
         <a href="https://github.com/Nagamakii" className="text-white">
