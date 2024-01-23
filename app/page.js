@@ -24,7 +24,7 @@ export default function Page() {
               <li>
                 <a 
                   className='text-white px-4 py-2 font-mono rounded-md ml-8 border-solid border-2 border-purple-400' 
-                  href="/Evan Quah Resume.pdf" 
+                  href="/Evan_Quah_Resume.pdf" 
                   alt="alt text" 
                   target="_blank" 
                   rel="noopener noreferrer"
