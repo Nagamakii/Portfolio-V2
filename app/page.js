@@ -76,7 +76,7 @@ export default function Page() {
 
       Here I host some home automation code, <span className="text-purple-400">Docker</span> containers, and expliotable virtual machines to use as sandbox testing enviornments.
       
-      I self-host a SIEM and XDR server using <span className="text-purple-400">Wazuh</span> in this enviornment. 
+      I self-host a SIEM and XDR servers using <span className="text-purple-400">Wazuh</span> in this enviornment. 
 
       </p>
       <h4 className='py-4 text-purple-400 font-mono'>Tools</h4>
@@ -142,46 +142,6 @@ export default function Page() {
       
   </div>
 </div>
-</div>
-</section>
-<section>
-<div>
-  <div className='grid grid-cols-2 gap-4 justify-between'>
-  <div className='text-5xl font-mono rounded-md border-transparent py-10 border-text-center'>Professional Experience</div>
-  <div className='grid grid-rows-3 gap-4 justify-items-stretch'>
-
-    <div className='text-center shadow-lg pt-5 rounded-xl my-1 border-solid border-2 bg-opacity-100 bg-black border-purple-400'>
-      <h3 className='text-lg font-medium pb-2 font-mono'>
-        Cybati
-      </h3>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-800"></hr>
-          <p className='font-mono text-center pb-5 mx-5'>Assisted in the creation of simulated <span className="text-purple-400">SCADA</span> deviced used in Hacking conventions. 
-          <br></br>
-          Gained new knowledge of Linux, <span className="text-purple-400">scripting</span>, and <span className="text-purple-400">networking</span>.</p>  
-
-    </div>
-    <div className='text-center shadow-lg pt-5 rounded-xl my-1 border-solid border-2 bg-opacity-100 bg-black border-purple-400'>
-      <h3 className='text-lg font-medium pb-2 font-mono'>
-        IntelliGenesis
-      </h3>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-800"></hr>
-          <p className='font-mono text-center pb-5 mx-5'>Expanded my knowledge of <span className="text-purple-400">embeded systems</span> and hardware, with a more robust infrastructure. 
-          <br></br>
-          During this time I learned how to build <span className="text-purple-400">complex projects</span> as a team.</p>  
-
-    </div>
-    <div className='text-center shadow-lg pt-5 rounded-xl my-1 border-solid border-2 bg-opacity-100 bg-black border-purple-400'>
-      <h3 className='text-lg font-medium pb-2 font-mono'>
-        Vault Strategies
-      </h3>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-800"></hr>
-          <p className='font-mono text-center pb-5 mx-5'>Channelled my knowledge of Cybersecurity into a business enviornment.
-          <br></br>
-          Improved and automated IT processes, and focused on building a secure infrastructure.
-          </p>  
-      </div>
-    </div>
-  </div>
 </div>
 </section>
       </main>
