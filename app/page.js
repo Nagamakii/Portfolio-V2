@@ -1,14 +1,13 @@
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import ParticleBackground from './components/particle';
-import Footer from './components/footer';
 import memory from "../public/Memory.png";
 import files from "../public/Files.png";
 import code from "../public/code.png";
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Evan Quah',
-  description: 'Evan Quah Portfolio',
+  title: 'Home',
+  description: 'Evan Quah Portfolio Main Page',
   image: '/icon.ico',
 };
 
@@ -18,22 +17,6 @@ export default function Page() {
       <ParticleBackground />
       <main className="md:px-20 lg:px-40 relative z-10">
         <section className='min-h-screen'> 
-          <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl font-mono'>madebyevan :)</h1>
-            <ul className='flex items-center'>
-              <li>
-                <a 
-                  className='text-white px-4 py-2 font-mono rounded-md ml-8 border-solid border-2 border-purple-400' 
-                  href="/Evan_Quah_Resume_TP.pdf" 
-                  alt="alt text" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
-          </nav>
           <div className='pt-20'>
             <div className='text-center pt-20'>
               <p className='font font-mono'>Hi! I'm</p>
@@ -145,7 +128,6 @@ export default function Page() {
 </div>
 </section>
       </main>
-      <Footer />
     </div>
   );
 }
