@@ -10,7 +10,7 @@ export default function Page() {
     return (
         <div className="relative">
         <ParticleBackground />
-            <h1 className="text-5xl text-center">Coming Soon...</h1>
+            <h1 className="text-5xl text-center font-mono">Coming Soon...</h1>
         </div>
     )
 }
