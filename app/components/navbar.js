@@ -8,11 +8,6 @@ export default function Navbar() {
                     <li>
                         <Link className='text-white px-4 py-2 font-mono rounded-md ml-8 border-solid border-2 border-purple-400' 
                         target="_blank" 
-                        href="/Evan_Quah_Resume_TP.pdf">Resume</Link>
-                    </li>
-                    <li>
-                        <Link className='text-white px-4 py-2 font-mono rounded-md ml-8 border-solid border-2 border-purple-400' 
-                        target="_blank" 
                         href="/blog">Blog</Link>
                     </li>
                 </ul>
