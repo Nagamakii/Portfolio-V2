@@ -28,7 +28,7 @@ export default function Page() {
               <a href='https://github.com/Nagamakii'>
                 <AiFillGithub />
               </a>
-              <a href='https://www.linkedin.com/in/evan-quah/'>
+              <a href='https://www.linkedin.com/in/evanquah/'>
                 <AiFillLinkedin />
               </a>
             </div> 
@@ -55,9 +55,9 @@ export default function Page() {
 
       <p className='font-mono'>
       
-      Using a combination of Raspberry PI's, virutal machines, and other devices, I actively manage a <span className="text-purple-400">Linux</span> based home lab. 
+      Using docker, TrueNAS, OPNsense, and other tools, I manage a <span className="text-purple-400">Linux</span> based home lab. 
 
-      Here I host some home automation code, <span className="text-purple-400">Docker</span> containers, and expliotable virtual machines to use as sandbox testing enviornments.
+      Here I host some home automation code, <span className="text-purple-400">Docker</span> containers, and Cybersecurity tools for research. 
       
       I self-host a SIEM and XDR servers using <span className="text-purple-400">Wazuh</span> in this enviornment. 
 
