@@ -3,25 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build-static": "node scripts/build.js",
+    "clean": "rimraf dist"
   },
   "dependencies": {
-    "next": "^13.5.6",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^4.11.0",
-    "react-tsparticles": "^2.12.2",
-    "tsparticles": "^2.12.0"
+    "marked": "^5.1.1"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.7.4",
-    "autoprefixer": "^10",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.6",
-    "postcss": "^8",
-    "tailwindcss": "^3"
+    "rimraf": "^5"
   }
 }

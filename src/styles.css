@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom utilities (if needed) */
+
+/* Ensure typed plugin utilities are available */
+/* Use classes like `typed-caret` in your HTML to apply the plugin */
