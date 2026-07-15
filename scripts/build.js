@@ -60,7 +60,7 @@ function renderHead(title=''){
 
 function renderFooter(){
   return `
-  <footer class="mt-12 py-6 text-center text-sm text-gray-400">&copy; ${new Date().getFullYear()} Evan Quah</footer>
+  <footer class="mt-auto py-6 text-center text-sm text-gray-400">&copy; ${new Date().getFullYear()} Evan Quah</footer>
 </body>
 </html>`;
 }
